@@ -1,0 +1,48 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif; /* Fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+}
+
+.vh-100 {
+    min-height: 100vh; /* Garante altura mínima da viewport */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.h-custom {
+    background-color: #fff; /* Fundo branco para o formulário */
+    padding: 30px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Formulário */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Cor primária do Bootstrap */
+    border: none;
+}
+
+/* Rodapé */
+.bg-primary {
+    background-color: #007bff !important; /* Cor primária do Bootstrap */
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .offset-xl-1 {
+        margin-left: 0 !important; /* Remove o offset em telas menores */
+    }
+}
